@@ -1,0 +1,24 @@
+{
+    "players": [
+      {  "key":"1",
+        "name": "Josip Došen",
+        "broj": "7"
+      },
+      {"key":"2",
+        "name": "Marino Troskot",
+        "broj": "9"
+      },
+      {"key":"3",
+        "name": "Roko Buriko Pribilović",
+        "broj": "19"
+      },
+      {"key":"4",
+        "name": "Hrvoje Jeličić",
+        "broj": "18"
+      },
+      {"key":"5",
+        "name": "Bruno Jeličić",
+        "broj": "17"
+      }
+    ]
+  }
