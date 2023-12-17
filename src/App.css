@@ -44,3 +44,9 @@
 .navbar a:hover{
   color: white;
 }
+.linkclass{
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  margin-right: 10px;
+}

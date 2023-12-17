@@ -9,8 +9,8 @@ export default function Home(){
       icon:grb,
       duration:5000,
       native:true
-    })
-   }
+    });
+   };
    return <>
      <button onClick={notify} style={{margin:'100px'}}>
       Klikni za notifikaciju!

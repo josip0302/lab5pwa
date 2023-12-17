@@ -17,7 +17,7 @@ this.addEventListener("install",(event)=>{
 
 this.addEventListener("fetch",(event)=>{
     event.waitUntil(
-        this.ServiceWorkerRegistration.showNotification("hello",{
+        this.registration.showNotification("hello",{
             body:"hello pozdrav",
         })
     );

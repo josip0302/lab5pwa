@@ -11,11 +11,12 @@ function App() {
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
             <Navbar.Brand href="#home">Dobrodošli</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link><Link to='/'>Home</Link></Nav.Link>
-              <Nav.Link><Link to='/about'>About</Link></Nav.Link>
-              <Nav.Link><Link to='/players'>Players</Link></Nav.Link>
+            <Nav className="linkclass">
+              <Link className="linkclass" to='/'>Home</Link>
+              <Link className="linkclass" to='/about'>About</Link>
+              <Link className="linkclass" to='/players'>Players</Link>
             </Nav>
+          
           </Container>
         </Navbar>
         <Routes>
