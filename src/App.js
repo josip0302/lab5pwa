@@ -3,6 +3,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 import Home from './components/Home'
 import About from './components/About'
 import Players from './components/Players'
+import { Notifications } from 'react-push-notification';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' Component={Home}></Route>
         </Routes>
       </Router>
+      <Notifications></Notifications>
     </div>
   );
 }

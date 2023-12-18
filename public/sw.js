@@ -16,11 +16,6 @@ this.addEventListener("install",(event)=>{
 
 
 this.addEventListener("fetch",(event)=>{
-    event.waitUntil(
-        this.registration.showNotification("hello",{
-            body:"hello pozdrav",
-        })
-    );
    
 
     if(!navigator.onLine){
